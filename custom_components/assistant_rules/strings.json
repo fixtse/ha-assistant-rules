@@ -1,0 +1,36 @@
+{
+  "title": "Assistant event-driven reminders and alerts",
+  "config": {
+    "step": {
+      "user": {
+        "title": "Assistant reminders and alerts",
+        "description": "Home Assistant owns deadlines, sensor and weather subscriptions. Zero receives one-shot callbacks. No assistant prompt is stored here.",
+        "data": {
+          "callback_url": "Zero rule event callback URL",
+          "callback_token": "Rule callback token"
+        }
+      }
+    },
+    "error": {
+      "invalid_token": "Use a dedicated callback token of at least 24 characters."
+    },
+    "abort": {
+      "already_configured": "Reminders and alerts are already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Callback delivery",
+        "description": "Update delivery for future events. Existing rules and deadlines remain in Home Assistant; uncertain deliveries are never replayed.",
+        "data": {
+          "callback_url": "Zero rule event callback URL",
+          "callback_token": "Rule callback token"
+        }
+      }
+    },
+    "error": {
+      "invalid_token": "Use a dedicated callback token of at least 24 characters."
+    }
+  }
+}
