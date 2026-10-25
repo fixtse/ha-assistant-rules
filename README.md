@@ -1,5 +1,9 @@
 # Assistant reminders and alerts
 
+**Archived:** reminders and alerts are now part of [Zero Assistant](https://github.com/fixtse/ha-zero-assistant). Use that integration for new installations. Existing installations can migrate while preserving their rules.
+
+The instructions below describe the legacy release.
+
 <img src="custom_components/assistant_rules/brand/icon.png" width="128" alt="Assistant reminders and alerts">
 
 Run reminders, timers, sensor alerts, and weather alerts in Home Assistant, with callbacks to Zero.
